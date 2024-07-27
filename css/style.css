@@ -1,0 +1,70 @@
+@keyframes abc {
+    from{
+        transform: translate(0px,0px);
+    }
+    to{
+        transform: translate(0px,400px);
+    }
+}
+@keyframes a{
+    from{
+        transform: translate(0px,0px);
+    }
+    to{
+        transform: translate(1000px,0px);
+    }
+}
+.comn{
+    height: 200px;
+    width: 200px;
+    
+    border-radius: 150px;
+    display: inline-block;
+    animation-name:abc;
+    animation-duration: 0.9s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+}
+
+.a{
+    background-image: linear-gradient(to right, rgba(0, 179, 255, 0.586), rgb(255, 0, 234));
+    animation-delay: 0.2s;
+}
+.b{
+    background-image: linear-gradient(to right, rgba(0, 179, 255, 0.586), rgb(255, 0, 234));
+    animation-delay: 2.3s;
+}
+.c{
+    background-image: linear-gradient(to right, rgba(0, 179, 255, 0.586), rgb(255, 0, 234));
+    animation-delay: 2.4s;
+}
+.d{
+    background-image: linear-gradient(to right, rgba(0, 179, 255, 0.586), rgb(255, 0, 234));
+    animation-delay: 2.5s;
+}
+.e{
+    background-image: linear-gradient(to right, rgba(0, 179, 255, 0.586), rgb(255, 0, 234));
+    animation-delay: 2.6s;
+}
+.r{
+    margin-top: 400px;
+    height: 20px;
+    width: 200px;
+    border: 3px solid rgb(197, 190, 190);
+    animation-duration: 3s;
+    animation-name: a;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    border-radius: 100px;
+    background-color: rgb(197, 190, 190);
+    
+    
+}
+
+
+    
